@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>c:/Users/ipdhl/Documents/Projects/MonoGame/Basement/Content/Shaders/Outline.fx</SourceFile>
+  <SourceTime>2026-01-27T02:50:58.9740816+09:00</SourceTime>
+  <DestFile>c:/Users/ipdhl/Documents/Projects/MonoGame/Basement/Content/bin/DesktopGL/Content/Shaders/Outline.xnb</DestFile>
+  <DestTime>2026-01-28T15:32:20.5524935+09:00</DestTime>
+  <Importer>EffectImporter</Importer>
+  <ImporterTime>2025-10-20T23:25:32+09:00</ImporterTime>
+  <Processor>EffectProcessor</Processor>
+  <ProcessorTime>2025-10-20T23:25:32+09:00</ProcessorTime>
+  <Parameters>
+    <Key>DebugMode</Key>
+    <Value>Auto</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
