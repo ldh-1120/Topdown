@@ -26,7 +26,7 @@ namespace Basement.Gameplay.Components {
             Vector2 position = Owner.Position;
             Vector2 target = position + velocity * deltaTime;
 
-            AabbF aabb = _collider.GetAabb(position);
+            AabbF aabb = _collider.GetAabb(target);
             _world.QuerySolids(aabb, _candidates);
             for (int iter = 0; iter < MAX_ITERATIONS; iter++) {
                 bool anyHit = false;

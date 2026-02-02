@@ -81,7 +81,7 @@ namespace Basement.Core.Assets {
                     int to = item.GetProperty("to").GetInt32();
                     string direction = item.TryGetProperty("duration", out JsonElement directionElement) ? (directionElement.GetString() ?? "forward") : "forward";
 
-                    tagsByName[name] = new TagInfo(name, from, to, direction);
+                    tagsByName[name] = new TagInfo(name, from, to, direction); 
                 }
             }
 
